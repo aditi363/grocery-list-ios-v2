@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1208329428064597002DB26A /* SQLiteHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1208329328064597002DB26A /* SQLiteHelper.swift */; };
+		120832962806462F002DB26A /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120832952806462F002DB26A /* ListModel.swift */; };
+		1208329828066FCA002DB26A /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1208329728066FCA002DB26A /* ListViewCell.swift */; };
+		121BD1822803860700F72A98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BD1812803860700F72A98 /* AppDelegate.swift */; };
+		121BD1842803860700F72A98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BD1832803860700F72A98 /* SceneDelegate.swift */; };
+		121BD1862803860700F72A98 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BD1852803860700F72A98 /* HomeController.swift */; };
+		121BD1892803860700F72A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121BD1872803860700F72A98 /* Main.storyboard */; };
+		121BD18B2803860800F72A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121BD18A2803860800F72A98 /* Assets.xcassets */; };
+		121BD18E2803860800F72A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121BD18C2803860800F72A98 /* LaunchScreen.storyboard */; };
+		121BD19928038A5900F72A98 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BD19828038A5900F72A98 /* ListController.swift */; };
+		121BD19B280390A500F72A98 /* SetttingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121BD19A280390A500F72A98 /* SetttingController.swift */; };
+		125CA6592807B08C0081FE49 /* ViewListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CA6582807B08C0081FE49 /* ViewListController.swift */; };
+		125CA65B2807B1410081FE49 /* Viewlistcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CA65A2807B1410081FE49 /* Viewlistcell.swift */; };
+		12D6E91828076EAF00FDF273 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D6E91728076EAF00FDF273 /* HomeViewCell.swift */; };
+		8FEA894328A2F0ED00A84529 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEA894228A2F0ED00A84529 /* WidgetKit.framework */; };
+		8FEA894528A2F0ED00A84529 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEA894428A2F0ED00A84529 /* SwiftUI.framework */; };
+		8FEA894828A2F0ED00A84529 /* GroceryList_IOS_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA894728A2F0ED00A84529 /* GroceryList_IOS_Widget.swift */; };
+		8FEA894B28A2F0EF00A84529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FEA894A28A2F0EF00A84529 /* Assets.xcassets */; };
+		8FEA894D28A2F0EF00A84529 /* GroceryList_IOS_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA894928A2F0ED00A84529 /* GroceryList_IOS_Widget.intentdefinition */; };
+		8FEA894E28A2F0EF00A84529 /* GroceryList_IOS_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA894928A2F0ED00A84529 /* GroceryList_IOS_Widget.intentdefinition */; };
+		8FEA895128A2F0EF00A84529 /* GroceryList_IOS WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8FEA894028A2F0ED00A84529 /* GroceryList_IOS WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8FEA895628A2F12C00A84529 /* SQLiteHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1208329328064597002DB26A /* SQLiteHelper.swift */; };
+		8FEA895728A2F1DE00A84529 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120832952806462F002DB26A /* ListModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FEA894F28A2F0EF00A84529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 121BD1762803860700F72A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FEA893F28A2F0ED00A84529;
+			remoteInfo = "GroceryList_IOS WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8FEA895228A2F0EF00A84529 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8FEA895128A2F0EF00A84529 /* GroceryList_IOS WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1208329328064597002DB26A /* SQLiteHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteHelper.swift; sourceTree = "<group>"; };
+		120832952806462F002DB26A /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		1208329728066FCA002DB26A /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		121BD17E2803860700F72A98 /* GroceryList_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryList_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		121BD1812803860700F72A98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		121BD1832803860700F72A98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		121BD1852803860700F72A98 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		121BD1882803860700F72A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		121BD18A2803860800F72A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		121BD18D2803860800F72A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		121BD18F2803860800F72A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		121BD19828038A5900F72A98 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		121BD19A280390A500F72A98 /* SetttingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetttingController.swift; sourceTree = "<group>"; };
+		125CA6582807B08C0081FE49 /* ViewListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewListController.swift; sourceTree = "<group>"; };
+		125CA65A2807B1410081FE49 /* Viewlistcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewlistcell.swift; sourceTree = "<group>"; };
+		12D6E91728076EAF00FDF273 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		8F3A82E528A37CBB0037E11D /* GroceryList_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GroceryList_iOS.entitlements; sourceTree = "<group>"; };
+		8F3A82E628A37D0C0037E11D /* GroceryList_IOS WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GroceryList_IOS WidgetExtension.entitlements"; sourceTree = "<group>"; };
+		8FEA894028A2F0ED00A84529 /* GroceryList_IOS WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GroceryList_IOS WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEA894228A2F0ED00A84529 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8FEA894428A2F0ED00A84529 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8FEA894728A2F0ED00A84529 /* GroceryList_IOS_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryList_IOS_Widget.swift; sourceTree = "<group>"; };
+		8FEA894928A2F0ED00A84529 /* GroceryList_IOS_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = GroceryList_IOS_Widget.intentdefinition; sourceTree = "<group>"; };
+		8FEA894A28A2F0EF00A84529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FEA894C28A2F0EF00A84529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		121BD17B2803860700F72A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEA893D28A2F0ED00A84529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEA894528A2F0ED00A84529 /* SwiftUI.framework in Frameworks */,
+				8FEA894328A2F0ED00A84529 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		121BD1752803860700F72A98 = {
+			isa = PBXGroup;
+			children = (
+				8F3A82E628A37D0C0037E11D /* GroceryList_IOS WidgetExtension.entitlements */,
+				121BD1802803860700F72A98 /* GroceryList_iOS */,
+				8FEA894628A2F0ED00A84529 /* GroceryList_IOS Widget */,
+				8FEA894128A2F0ED00A84529 /* Frameworks */,
+				121BD17F2803860700F72A98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		121BD17F2803860700F72A98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				121BD17E2803860700F72A98 /* GroceryList_iOS.app */,
+				8FEA894028A2F0ED00A84529 /* GroceryList_IOS WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		121BD1802803860700F72A98 /* GroceryList_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8F3A82E528A37CBB0037E11D /* GroceryList_iOS.entitlements */,
+				121BD19728038A0F00F72A98 /* Cells */,
+				121BD19628038A0400F72A98 /* Models */,
+				121BD195280389F800F72A98 /* Controllers */,
+				121BD1812803860700F72A98 /* AppDelegate.swift */,
+				121BD1832803860700F72A98 /* SceneDelegate.swift */,
+				121BD1872803860700F72A98 /* Main.storyboard */,
+				121BD18A2803860800F72A98 /* Assets.xcassets */,
+				121BD18C2803860800F72A98 /* LaunchScreen.storyboard */,
+				121BD18F2803860800F72A98 /* Info.plist */,
+			);
+			path = GroceryList_iOS;
+			sourceTree = "<group>";
+		};
+		121BD195280389F800F72A98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				121BD1852803860700F72A98 /* HomeController.swift */,
+				121BD19828038A5900F72A98 /* ListController.swift */,
+				121BD19A280390A500F72A98 /* SetttingController.swift */,
+				1208329728066FCA002DB26A /* ListViewCell.swift */,
+				125CA6582807B08C0081FE49 /* ViewListController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		121BD19628038A0400F72A98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1208329328064597002DB26A /* SQLiteHelper.swift */,
+				120832952806462F002DB26A /* ListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		121BD19728038A0F00F72A98 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				12D6E91728076EAF00FDF273 /* HomeViewCell.swift */,
+				125CA65A2807B1410081FE49 /* Viewlistcell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8FEA894128A2F0ED00A84529 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FEA894228A2F0ED00A84529 /* WidgetKit.framework */,
+				8FEA894428A2F0ED00A84529 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FEA894628A2F0ED00A84529 /* GroceryList_IOS Widget */ = {
+			isa = PBXGroup;
+			children = (
+				8FEA894728A2F0ED00A84529 /* GroceryList_IOS_Widget.swift */,
+				8FEA894928A2F0ED00A84529 /* GroceryList_IOS_Widget.intentdefinition */,
+				8FEA894A28A2F0EF00A84529 /* Assets.xcassets */,
+				8FEA894C28A2F0EF00A84529 /* Info.plist */,
+			);
+			path = "GroceryList_IOS Widget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		121BD17D2803860700F72A98 /* GroceryList_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 121BD1922803860800F72A98 /* Build configuration list for PBXNativeTarget "GroceryList_iOS" */;
+			buildPhases = (
+				121BD17A2803860700F72A98 /* Sources */,
+				121BD17B2803860700F72A98 /* Frameworks */,
+				121BD17C2803860700F72A98 /* Resources */,
+				8FEA895228A2F0EF00A84529 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FEA895028A2F0EF00A84529 /* PBXTargetDependency */,
+			);
+			name = GroceryList_iOS;
+			productName = GroceryList_iOS;
+			productReference = 121BD17E2803860700F72A98 /* GroceryList_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FEA893F28A2F0ED00A84529 /* GroceryList_IOS WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEA895528A2F0EF00A84529 /* Build configuration list for PBXNativeTarget "GroceryList_IOS WidgetExtension" */;
+			buildPhases = (
+				8FEA893C28A2F0ED00A84529 /* Sources */,
+				8FEA893D28A2F0ED00A84529 /* Frameworks */,
+				8FEA893E28A2F0ED00A84529 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GroceryList_IOS WidgetExtension";
+			productName = "GroceryList_IOS WidgetExtension";
+			productReference = 8FEA894028A2F0ED00A84529 /* GroceryList_IOS WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		121BD1762803860700F72A98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					121BD17D2803860700F72A98 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					8FEA893F28A2F0ED00A84529 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 121BD1792803860700F72A98 /* Build configuration list for PBXProject "GroceryList_iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 121BD1752803860700F72A98;
+			productRefGroup = 121BD17F2803860700F72A98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				121BD17D2803860700F72A98 /* GroceryList_iOS */,
+				8FEA893F28A2F0ED00A84529 /* GroceryList_IOS WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		121BD17C2803860700F72A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121BD18E2803860800F72A98 /* LaunchScreen.storyboard in Resources */,
+				121BD18B2803860800F72A98 /* Assets.xcassets in Resources */,
+				121BD1892803860700F72A98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEA893E28A2F0ED00A84529 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEA894B28A2F0EF00A84529 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		121BD17A2803860700F72A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121BD1862803860700F72A98 /* HomeController.swift in Sources */,
+				121BD1822803860700F72A98 /* AppDelegate.swift in Sources */,
+				121BD1842803860700F72A98 /* SceneDelegate.swift in Sources */,
+				121BD19B280390A500F72A98 /* SetttingController.swift in Sources */,
+				8FEA894E28A2F0EF00A84529 /* GroceryList_IOS_Widget.intentdefinition in Sources */,
+				1208329828066FCA002DB26A /* ListViewCell.swift in Sources */,
+				120832962806462F002DB26A /* ListModel.swift in Sources */,
+				121BD19928038A5900F72A98 /* ListController.swift in Sources */,
+				1208329428064597002DB26A /* SQLiteHelper.swift in Sources */,
+				125CA6592807B08C0081FE49 /* ViewListController.swift in Sources */,
+				125CA65B2807B1410081FE49 /* Viewlistcell.swift in Sources */,
+				12D6E91828076EAF00FDF273 /* HomeViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEA893C28A2F0ED00A84529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEA894D28A2F0EF00A84529 /* GroceryList_IOS_Widget.intentdefinition in Sources */,
+				8FEA894828A2F0ED00A84529 /* GroceryList_IOS_Widget.swift in Sources */,
+				8FEA895628A2F12C00A84529 /* SQLiteHelper.swift in Sources */,
+				8FEA895728A2F1DE00A84529 /* ListModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FEA895028A2F0EF00A84529 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FEA893F28A2F0ED00A84529 /* GroceryList_IOS WidgetExtension */;
+			targetProxy = 8FEA894F28A2F0EF00A84529 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		121BD1872803860700F72A98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				121BD1882803860700F72A98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		121BD18C2803860800F72A98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				121BD18D2803860800F72A98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		121BD1902803860800F72A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		121BD1912803860800F72A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		121BD1932803860800F72A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GroceryList_iOS/GroceryList_iOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VB2CGFW8M3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroceryList_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Singhs.GroceryList-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		121BD1942803860800F72A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GroceryList_iOS/GroceryList_iOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VB2CGFW8M3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroceryList_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Singhs.GroceryList-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FEA895328A2F0EF00A84529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "GroceryList_IOS WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VB2CGFW8M3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GroceryList_IOS Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GroceryList_IOS Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Singhs.GroceryList-iOS.GroceryList-IOS-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FEA895428A2F0EF00A84529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "GroceryList_IOS WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VB2CGFW8M3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GroceryList_IOS Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "GroceryList_IOS Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Singhs.GroceryList-iOS.GroceryList-IOS-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		121BD1792803860700F72A98 /* Build configuration list for PBXProject "GroceryList_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121BD1902803860800F72A98 /* Debug */,
+				121BD1912803860800F72A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		121BD1922803860800F72A98 /* Build configuration list for PBXNativeTarget "GroceryList_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				121BD1932803860800F72A98 /* Debug */,
+				121BD1942803860800F72A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEA895528A2F0EF00A84529 /* Build configuration list for PBXNativeTarget "GroceryList_IOS WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEA895328A2F0EF00A84529 /* Debug */,
+				8FEA895428A2F0EF00A84529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 121BD1762803860700F72A98 /* Project object */;
+}
